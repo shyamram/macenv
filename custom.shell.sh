@@ -272,6 +272,7 @@ echo 'Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and
 echo 'Add the GPG key to your GitHub account Profile -> Settings -> SSH & GPG key -> New GPG key -> Paste your GPG key'
 echo "Update your .gitconfig file"
 echo 'git config --global user.signingkey <gpg keyid>'
+echo 'signingkey = 1E0EC299B0896834' >> ~/.gitconfig
 echo "echo 'export GPG_TTY=$(tty)' >> ~/.bash_profile or ~/.zhsrc"
 echo 'git config --global commit.gpgsign true'
 brew cask install gpg-suite-no-mail gpg-suite-pinentry
@@ -298,7 +299,6 @@ echo "Restart Terminal and Enjoy!"
 
 ###
 echo '
-
 
 sramamoorthy@Shyams-MacBook-Pro public % bash homebrew_installer.sh 
 Password:
