@@ -202,8 +202,8 @@ cd -
 # pyenv - manage multiple versions of python
 
 brew install pyenv
-echo 'if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi' > ~/.bash_profile
-source ~/.bash_profile
+echo 'if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi' > ~/.zshrc
+source ~/.zshrc
 
 brew install openssl readline sqlite3 xz zlib	# dependencies for pyenv
 pyenv install --list	# list all available python versions
@@ -234,8 +234,8 @@ pip uninstall <package>
 
 brew install pyenv-virtualenv
 
-echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.bash_profile
-source ~/.bash_profile
+echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.zshrc
+source ~/.zshrc
 
 echo 'pyenv usage. eg. 
 pyenv virtualenv 3.7.5 myproject	#  create a virtualenv called myproject with python version 3.7.5
