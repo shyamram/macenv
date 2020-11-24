@@ -293,11 +293,36 @@ For Mac users, the GPG Suite allows you to store your GPG key passphrase in the 
 '
 
 
-
 echo "Restart Terminal and Enjoy!"
+
+# docker
+brew cask install docker
+
+# virtualbox
+brew cask install virtualbox virtualbox-extension-pack
+
+# kuberbetes
+
+# IDE - visual studio gui
+brew cask install visual-studio-code
+brew cask install intellij-idea
+
+# browsers
+brew install google-chrome firefox
+
+# aws cli
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+
+# okta - https://github.com/segmentio/aws-okta
+brew install aws-okta
+
+# API
+brew cask install postman
 
 
 ###
+
 echo '
 
 sramamoorthy@Shyams-MacBook-Pro public % bash homebrew_installer.sh 
