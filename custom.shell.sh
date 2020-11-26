@@ -133,12 +133,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo '
 plugins=(
   git
-  bundler
+  gitignore
   dotenv
   osx
-  rake
-  rbenv
-  ruby
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 ' >> ~/.zshrc
 
@@ -301,7 +300,18 @@ brew cask install docker
 # virtualbox
 brew cask install virtualbox virtualbox-extension-pack
 
+# terraform -  https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+terraform -install-autocomplete
+
 # kuberbetes
+#brew install mini-kube kind k9s
+brew install kind k9s
+
+# go
+brew install go
+
 
 # IDE - visual studio gui
 brew cask install visual-studio-code
