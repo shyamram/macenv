@@ -23,3 +23,6 @@ scikit-learn
 numpy
 keras
 torch
+python-bootstrap
+django-bootstrap
+flask-bootstrap
