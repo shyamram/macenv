@@ -12,3 +12,5 @@ customize my mac dev environment
 - https://raw.githubusercontent.com/shyamram/pythonwork/master/README.md
 - https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 - https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+
+# pip freeze > requirements.versions.txt
