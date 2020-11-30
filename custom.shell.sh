@@ -279,6 +279,9 @@ echo '
 You may need to set "pinentry-program" in ~/.gnupg/gpg-agent.conf as follows:
   pinentry-program /usr/local/MacGPG2/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac
 '
+echo 'export GPG_TTY=$(tty)' >> ~/.zhsrc
+echo 'pinentry-program /usr/local/MacGPG2/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac' >> ~/.gnupg/gpg-agent.conf
+git config --global commit.gpgsign true
 
 
 echo '
