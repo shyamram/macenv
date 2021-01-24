@@ -294,8 +294,13 @@ To store your GPG key passphrase so you don't have to enter it every time you si
 For Mac users, the GPG Suite allows you to store your GPG key passphrase in the Mac OS Keychain.
 '
 
+# git secrets
+# https://github.com/awslabs/git-secrets#homebrew-for-macos-users
+brew install git-secrets
+git secrets --register-aws --global
 
-echo "Restart Terminal and Enjoy!"
+
+
 
 # docker
 brew cask install docker
@@ -333,6 +338,7 @@ brew install aws-okta
 # API
 brew cask install postman
 
+echo "Restart Terminal and Enjoy!"
 
 ###
 
