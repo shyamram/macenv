@@ -495,7 +495,6 @@ sec   rsa4096/1E0EC299B0896834 2020-11-22 [SC]
       7C7490FE84D2C1B96410D9DD1E0EC299B0896834
 uid                 [ultimate] Shyam Ramamoorthy (secure default my personal github gpg key) <shyamram@users.noreply.github.com>
 ssb   rsa4096/15B8CC7038F94828 2020-11-22 [E
-
 GPG Keyid is: 1E0EC299B0896834
 
 
